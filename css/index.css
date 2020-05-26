@@ -168,6 +168,29 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.nav-section {
+  border-bottom: 2px dashed gray;
+  padding-bottom: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.nav-section h2 {
+  margin-top: 5%;
+  margin-left: 8%;
+}
+.nav-section nav {
+  margin-top: 5%;
+  margin-right: 8%;
+  width: 30%;
+}
+.nav-section nav a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  color: #212529;
+  padding: 3%;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
