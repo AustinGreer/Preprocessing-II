@@ -175,7 +175,7 @@ img {
   justify-content: space-between;
   align-items: flex-start;
 }
-.nav-section h2 {
+.nav-section h1 {
   margin-top: 5%;
   margin-left: 8%;
 }
@@ -201,6 +201,19 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.header-section {
+  width: 80%;
+  margin: 0 10%;
+  border-bottom: 2px dashed gray;
+  padding-bottom: 2%;
+}
+.header-section img {
+  margin-bottom: 3%;
+  width: 90%;
+}
+.header-section p {
+  width: 70%;
 }
 .home .content-section {
   margin: 30px 0;
