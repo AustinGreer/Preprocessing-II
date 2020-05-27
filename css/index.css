@@ -175,6 +175,16 @@ img {
   justify-content: space-between;
   align-items: flex-start;
 }
+@media (max-width: 500px) {
+  .nav-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 3%;
+  }
+}
 .nav-section h1 {
   margin-top: 5%;
   margin-left: 8%;
@@ -183,6 +193,14 @@ img {
   margin-top: 5%;
   margin-right: 8%;
   width: 30%;
+}
+@media (max-width: 500px) {
+  .nav-section nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+  }
 }
 .nav-section nav a {
   text-decoration: none;
@@ -232,9 +250,26 @@ img {
 .home .content-section .img-content img {
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .home .content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
+}
+@media (max-width: 500px) {
+  .home .inverse-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -244,24 +279,32 @@ img {
   padding-right: 1%;
   padding-left: 0;
 }
-.home .content-destination {
+.content-destination {
   width: 75%;
   margin: 0 auto 30px;
 }
-.home .content-destination img {
+.content-destination img {
   border-radius: 10px;
 }
-.home .content-pick {
+.content-pick {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
 }
-.home .content-pick .destination {
+@media (max-width: 500px) {
+  .content-pick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
 }
-.home .content-pick .destination .btn {
+.content-pick .destination .btn {
   background-color: teal;
   border-radius: 15%;
   color: whitesmoke;
@@ -269,4 +312,9 @@ img {
   width: 80%;
   border: none;
   margin-bottom: 5%;
+}
+@media (max-width: 500px) {
+  .content-pick .destination .btn {
+    padding: 10% 0;
+  }
 }
